@@ -20,7 +20,7 @@ app.get("", (req, res) => {
 
  
 let port = process.env.PORT ||  8000;
-let address = process.env.HOSTNAME || "localhost"
+let address = process.env.HOSTNAME || "0.0.0.0"
 
 
 app.listen(port,address , (err) => {
